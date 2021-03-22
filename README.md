@@ -1,2 +1,2 @@
 # dataStructure
-learning  dataStructure
+Learn data structures and algorithms
