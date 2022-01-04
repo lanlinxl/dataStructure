@@ -17,6 +17,18 @@
 		C4B1ACA624D1859A003AC20C /* StudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1ACA324D1859A003AC20C /* StudyViewController.swift */; };
 		C4B1ACA724D1859A003AC20C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1ACA424D1859A003AC20C /* HomeViewController.swift */; };
 		C4B1ACA824D1859A003AC20C /* ModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1ACA524D1859A003AC20C /* ModuleViewController.swift */; };
+		C4B8689B2783EE3800EB19E5 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B8689A2783EE3800EB19E5 /* Node.swift */; };
+		C4B8689D2783EE4600EB19E5 /* NodeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B8689C2783EE4600EB19E5 /* NodeList.swift */; };
+		C4B8689F2783EE5900EB19E5 /* NodeCycleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B8689E2783EE5900EB19E5 /* NodeCycleList.swift */; };
+		C4B868A12783EEB200EB19E5 /* DNodeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B868A02783EEB200EB19E5 /* DNodeList.swift */; };
+		C4B868A32783EEB900EB19E5 /* DNodeCycleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B868A22783EEB800EB19E5 /* DNodeCycleList.swift */; };
+		C4B868A82783EEC000EB19E5 /* StackArrayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B868A42783EEC000EB19E5 /* StackArrayList.swift */; };
+		C4B868A92783EEC000EB19E5 /* QueueNodeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B868A52783EEC000EB19E5 /* QueueNodeList.swift */; };
+		C4B868AA2783EEC000EB19E5 /* QueueArrayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B868A62783EEC000EB19E5 /* QueueArrayList.swift */; };
+		C4B868AB2783EEC000EB19E5 /* StackNodeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B868A72783EEC000EB19E5 /* StackNodeList.swift */; };
+		C4B868AE2783EF0D00EB19E5 /* BinaryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B868AC2783EF0C00EB19E5 /* BinaryNode.swift */; };
+		C4B868AF2783EF0D00EB19E5 /* BinaryTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B868AD2783EF0C00EB19E5 /* BinaryTreeNode.swift */; };
+		C4B868B42783EF4D00EB19E5 /* DPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B868B32783EF4D00EB19E5 /* DPViewController.swift */; };
 		F35C0198235EF66200796F87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35C0197235EF66200796F87 /* AppDelegate.swift */; };
 		F35C019F235EF66300796F87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35C019E235EF66300796F87 /* Assets.xcassets */; };
 		F35C01A2235EF66300796F87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35C01A0235EF66300796F87 /* LaunchScreen.storyboard */; };
@@ -53,6 +65,18 @@
 		C4B1ACA324D1859A003AC20C /* StudyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyViewController.swift; sourceTree = "<group>"; };
 		C4B1ACA424D1859A003AC20C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C4B1ACA524D1859A003AC20C /* ModuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleViewController.swift; sourceTree = "<group>"; };
+		C4B8689A2783EE3800EB19E5 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		C4B8689C2783EE4600EB19E5 /* NodeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeList.swift; sourceTree = "<group>"; };
+		C4B8689E2783EE5900EB19E5 /* NodeCycleList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeCycleList.swift; sourceTree = "<group>"; };
+		C4B868A02783EEB200EB19E5 /* DNodeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNodeList.swift; sourceTree = "<group>"; };
+		C4B868A22783EEB800EB19E5 /* DNodeCycleList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNodeCycleList.swift; sourceTree = "<group>"; };
+		C4B868A42783EEC000EB19E5 /* StackArrayList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackArrayList.swift; sourceTree = "<group>"; };
+		C4B868A52783EEC000EB19E5 /* QueueNodeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueNodeList.swift; sourceTree = "<group>"; };
+		C4B868A62783EEC000EB19E5 /* QueueArrayList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueArrayList.swift; sourceTree = "<group>"; };
+		C4B868A72783EEC000EB19E5 /* StackNodeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackNodeList.swift; sourceTree = "<group>"; };
+		C4B868AC2783EF0C00EB19E5 /* BinaryNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryNode.swift; sourceTree = "<group>"; };
+		C4B868AD2783EF0C00EB19E5 /* BinaryTreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTreeNode.swift; sourceTree = "<group>"; };
+		C4B868B32783EF4D00EB19E5 /* DPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPViewController.swift; sourceTree = "<group>"; };
 		F35C0194235EF66200796F87 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35C0197235EF66200796F87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F35C019E235EF66300796F87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -113,11 +137,37 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		C4812EDB25F8E6490057090A /* 链表 */ = {
+		C4B868992783EE1600EB19E5 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				C4B8689A2783EE3800EB19E5 /* Node.swift */,
+				C4B8689C2783EE4600EB19E5 /* NodeList.swift */,
+				C4B8689E2783EE5900EB19E5 /* NodeCycleList.swift */,
+				C4B868A02783EEB200EB19E5 /* DNodeList.swift */,
+				C4B868A22783EEB800EB19E5 /* DNodeCycleList.swift */,
+				C4B868A62783EEC000EB19E5 /* QueueArrayList.swift */,
+				C4B868A52783EEC000EB19E5 /* QueueNodeList.swift */,
+				C4B868A42783EEC000EB19E5 /* StackArrayList.swift */,
+				C4B868A72783EEC000EB19E5 /* StackNodeList.swift */,
 			);
-			path = "链表";
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C4B868B02783EF2700EB19E5 /* BinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				C4B868AC2783EF0C00EB19E5 /* BinaryNode.swift */,
+				C4B868AD2783EF0C00EB19E5 /* BinaryTreeNode.swift */,
+			);
+			path = BinaryTree;
+			sourceTree = "<group>";
+		};
+		C4B868B22783EF4D00EB19E5 /* DPStudy */ = {
+			isa = PBXGroup;
+			children = (
+				C4B868B32783EF4D00EB19E5 /* DPViewController.swift */,
+			);
+			path = DPStudy;
 			sourceTree = "<group>";
 		};
 		F35C018B235EF66100796F87 = {
@@ -151,7 +201,9 @@
 				C4B1ACA424D1859A003AC20C /* HomeViewController.swift */,
 				C4B1ACA524D1859A003AC20C /* ModuleViewController.swift */,
 				C4B1ACA324D1859A003AC20C /* StudyViewController.swift */,
-				C4812EDB25F8E6490057090A /* 链表 */,
+				C4B868992783EE1600EB19E5 /* Base */,
+				C4B868B02783EF2700EB19E5 /* BinaryTree */,
+				C4B868B22783EF4D00EB19E5 /* DPStudy */,
 				F35C019E235EF66300796F87 /* Assets.xcassets */,
 				F35C01A0235EF66300796F87 /* LaunchScreen.storyboard */,
 				F35C01A3235EF66300796F87 /* Info.plist */,
@@ -316,13 +368,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4B868AA2783EEC000EB19E5 /* QueueArrayList.swift in Sources */,
+				C4B8689F2783EE5900EB19E5 /* NodeCycleList.swift in Sources */,
+				C4B868A12783EEB200EB19E5 /* DNodeList.swift in Sources */,
 				C4B1ACA624D1859A003AC20C /* StudyViewController.swift in Sources */,
 				C4B1ACA224D18579003AC20C /* BaseNavigationController.swift in Sources */,
+				C4B868AE2783EF0D00EB19E5 /* BinaryNode.swift in Sources */,
 				C4B1ACA824D1859A003AC20C /* ModuleViewController.swift in Sources */,
+				C4B868AB2783EEC000EB19E5 /* StackNodeList.swift in Sources */,
+				C4B8689B2783EE3800EB19E5 /* Node.swift in Sources */,
+				C4B868A82783EEC000EB19E5 /* StackArrayList.swift in Sources */,
 				C4B1ACA024D18579003AC20C /* BaseTabBarController.swift in Sources */,
+				C4B868B42783EF4D00EB19E5 /* DPViewController.swift in Sources */,
 				F35C0198235EF66200796F87 /* AppDelegate.swift in Sources */,
 				C4B1ACA124D18579003AC20C /* BaseViewController.swift in Sources */,
+				C4B868A32783EEB900EB19E5 /* DNodeCycleList.swift in Sources */,
+				C4B868AF2783EF0D00EB19E5 /* BinaryTreeNode.swift in Sources */,
+				C4B868A92783EEC000EB19E5 /* QueueNodeList.swift in Sources */,
 				C4B1ACA724D1859A003AC20C /* HomeViewController.swift in Sources */,
+				C4B8689D2783EE4600EB19E5 /* NodeList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
