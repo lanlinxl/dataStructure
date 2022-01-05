@@ -155,7 +155,8 @@ extension BinaryTreeNode {
 //        postorderTraversal(rootNode!.left)
 //        postorderTraversal(rootNode!.right)
 //        print("\(rootNode!.val)")
-
+        
+        
         // ===== 非递归写法 ========
         if rootNode == nil { return }
         if rootNode == nil { return }
@@ -170,7 +171,6 @@ extension BinaryTreeNode {
             print("\(node!.val)")
             node = node?.right
         }
-        
     }
     
     
