@@ -30,7 +30,7 @@ class HomeViewController: BaseViewController {
     }
     
     func initDataInfo(){
-        dataSource = ["单向链表","双向链表","动态数组","栈","队列","二叉树"]
+        dataSource = ["链表&数组","二叉树"]
         tableView.reloadData()
     }
 
@@ -65,9 +65,18 @@ extension HomeViewController : UITableViewDelegate,UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //取消选中的状态
-       
-
+        switch indexPath.row {
+        case 0:
+            let vc = NodeViewController()
+            navigationController?.pushViewController(vc, animated: true)
+        case 1:
+            let vc = BinaryTreeController()
+            navigationController?.pushViewController(vc, animated: true)
+        default:
+            break
+        }
+    
+        
     }
     
     override var shouldAutorotate: Bool {

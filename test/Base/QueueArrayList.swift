@@ -17,13 +17,13 @@ class QueueArrayList: NSObject {
     }
 
     //入队
-    func enQueue(data: Int) {
+    func offer(_ data: Int) {
         
         arrayList?.append(data)
     }
     
     //出队
-    func deQueue(){
+    func poll(){
         if arrayList!.count > 0 {
            arrayList?.removeFirst()
         }
@@ -53,10 +53,7 @@ class QueueArrayList: NSObject {
     
     //是否为空
     func isEmpty() -> Bool{
-        
-        let isEmpty = arrayList!.count > 0 ? false : true
-        
-        return isEmpty
+        return arrayList!.count > 0 ? false : true
     }
     
     //清空

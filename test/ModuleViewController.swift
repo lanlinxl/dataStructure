@@ -30,7 +30,7 @@ class ModuleViewController: BaseViewController {
     }
     
     func initDataInfo(){
-        dataSource = ["JXSegmentedView分页控制器"]
+        dataSource = ["分页控制器"]
         tableView.reloadData()
     }
 
